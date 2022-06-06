@@ -9,7 +9,7 @@ function App() {
     <div className='App'>
         <h2>Welcome to Business Pro!</h2>
         <p>
-          Professional business advice at your disposal!
+          Professional business advice at your disposal.
         </p>
     </div>
   );
