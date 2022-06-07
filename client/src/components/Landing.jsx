@@ -28,7 +28,7 @@ const Landing = () => {
           <div className='flex flex-col md:flex-row justify-center mb-4'>
             {/* <label for='member_email'>Email address</label> */}
             <input
-               className='text-lg md:text-2x1 placeholder:text-gray-400 placeholder:italic py-4 px-6 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 focus:bg-opacity-20 duration-150 rounded-full md:rounded-tr-none md:rounded-br-none mb-4 md:mb-0'
+               className='text-lg md:text-2xl placeholder:text-gray-400 placeholder:italic py-4 px-6 md:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 focus:bg-opacity-20 duration-150 rounded-full md:rounded-tr-none md:rounded-br-none mb-4 md:mb-0 outline-none'
               placeholder='e.g. johndoe@gmail.com'
               type='email'
               name='member[email]'
