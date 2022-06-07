@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
 body {
     background-image: url('./background/bg.jpg');
     background-size: cover;
     background-position: top center;
-}
-
-h2, p {
-    color: white;
 }
