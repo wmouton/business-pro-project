@@ -68,7 +68,7 @@ const Landing = () => {
           </a>{' '}
           |
           <a href='#' className='mx-3 hover:opacity-80 duration-150'>
-            Contract
+            Contact
           </a>
         </div>
       </footer>
