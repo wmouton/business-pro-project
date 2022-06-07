@@ -4,15 +4,15 @@ const Landing = () => {
   return (
     <div className='min-h-screen flex flex-col text-white'>
       <main className='container mx-auto px-6 pt-16 flex-1 text-center'>
-        <h2 className='text-2x1 md:text-4x1 1g:text-6x1 uppercase'>
+        <h2 className='text-2xl md:text-4xl 1g:text-6xl uppercase'>
           Welcome to
         </h2>
 
-        <h1 className='text-3x1 md:text-6x1 1g:text-8x1 font-black uppercase mb-8'>
+        <h1 className='text-3xl md:text-6xl 1g:text-8xl font-black uppercase mb-8'>
           Business Pro
         </h1>
         {/* Members */}
-        <div className='text-lg md:text-2x1 lg:text-3x1 py-2 px-4 md:py-4 md:px-10 1g:py-6 1g:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full'>
+        <div className='text-lg md:text-2xl lg:text-3xl py-2 px-4 md:py-4 md:px-10 1g:py-6 1g:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full'>
           3,929,876 members
         </div>
 
@@ -28,8 +28,8 @@ const Landing = () => {
           <div className='flex flex-col md:flex-row justify-center mb-4'>
             {/* <label for='member_email'>Email address</label> */}
             <input
-              className='revue-form-field'
-              placeholder='Your email address...'
+              className='text-2xl'
+              placeholder='e.g. johndoe@gmail.com'
               type='email'
               name='member[email]'
             />
